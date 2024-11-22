@@ -1,13 +1,6 @@
-let obj = {
-    width: "200",
-    height: "300",
-    title: "my object",
+// let arr = prompt('Введите массив строк', );
+function addString(arr=[]){
+    arr.push('Hello');
+    alert(arr);
 };
- function multiplyNumeric(obj){
-    for (let key in obj){
-            obj[key] *= 2;
-    }
- }
- multiplyNumeric(obj);
- console.log(obj);
- 
+addString(arr=[])
