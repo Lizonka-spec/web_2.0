@@ -1,20 +1,13 @@
-//1
-// let user = {
-//     name: "John",
-//     surname: "Smith",
+// function addString(arr=[]){
+//     arr.push('Hello');
+//     alert(arr);
 // };
-// user.name = ("Pete");
-// delete user.name;
-
-//2
-function isEmpty(obj){
-    for ( let key in obj){
-        return false
-    }
- return true
-}
-    
-// 3
-// let salaries = { john: 100, Ann: 160, Pete: 130 };
-// let sum = (salaries.john + salaries.Pete + salaries.Ann);
-// alert(sum);
+// addString(arr=[]);
+ 
+// function addArr(arr=[a]){
+//     let result = 0;
+//     for(let number of arr){
+//         result += number;
+//     }
+//     alert(result);
+// };
