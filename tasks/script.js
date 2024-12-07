@@ -1,14 +1,9 @@
-// let arr = prompt('Введите массив строк', );
-// function addString(arr=[]){
-//     arr.push('Hello');
-//     alert(arr);
-// };
-// addString(arr=[]);
- 
-function addArr(arr=[a]){
-    let result = 0;
-    for(let number of arr){
-        result += number;
-    }
-    alert(result);
-};
+let map = new Map();
+map.set("Liza", "1");
+map.set("Dasha", "2");
+alert(map.get("Liza"));
+map.delete("Dasha");
+alert(map.has("Dasha"));
+for (let name of map ){
+    alert(name);
+}
