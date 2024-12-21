@@ -1,20 +1,11 @@
-//1
-// let user = {
-//     name: "John",
-//     surname: "Smith",
-// };
-// user.name = ("Pete");
-// delete user.name;
+// let container = document.querySelector('.container');
+// container.classList.add('active');
+// console.log(container)
 
-//2
-function isEmpty(obj){
-    for ( let key in obj){
-        return false
-    }
- return true
-}
-    
-// 3
-// let salaries = { john: 100, Ann: 160, Pete: 130 };
-// let sum = (salaries.john + salaries.Pete + salaries.Ann);
-// alert(sum);
+let child = document.querySelector('.child');
+let parent = child.closest('.parent');
+console.log(parent);
+let parents = document.querySelectorAll('.parent');
+console.log(parents);
+let quantity = parents.length;
+console.log(quantity)
